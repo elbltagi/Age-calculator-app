@@ -73,7 +73,7 @@ function App() {
 
   return (
     <div className="App w-full h-screen flex max-lg:pt-8 items-center max-lg:items-start justify-center bg-[#f0f0f0] font-poppins">
-      <div className="flex flex-col max-lg:w-[80%] bg-white w-[50%] p-10 rounded-2xl shadow-lg rounded-br-[100px]">
+      <div className="flex flex-col max-lg:w-[90%] bg-white w-[50%] p-10 rounded-2xl shadow-lg rounded-br-[100px]">
         <form
           action=""
           className="flex justify-between w-full gap-2 flex-col "
