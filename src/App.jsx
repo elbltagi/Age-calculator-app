@@ -95,7 +95,7 @@ function App() {
                 }}
                 placeholder="DD"
                 type="number"
-                className={`border text-3xl no-arrows max-lg:text-2xl  text-[#141414]  ${
+                className={`border text-3xl no-arrows max-lg:text-xl  text-[#141414]  ${
                   DayErr ? "border-[#ff5757]" : "focus:border-[#9a8ac1]"
                 } outline-0 transition-all border-[#dbdbdb] font-bold rounded-lg py-2  p-4 w-full `}
               />
@@ -116,7 +116,7 @@ function App() {
                 }}
                 placeholder="MM"
                 type="number"
-                className={`border text-3xl no-arrows max-lg:text-2xl text-[#141414]  ${
+                className={`border text-3xl no-arrows max-lg:text-xl text-[#141414]  ${
                   MonErr || DayErr === "Must be a valid date"
                     ? "border-[#ff5757]"
                     : "focus:border-[#9a8ac1]"
@@ -139,7 +139,7 @@ function App() {
                 }}
                 placeholder="YYYY"
                 type="number"
-                className={`border text-3xl max-lg:text-2xl no-arrows text-[#141414]  ${
+                className={`border text-3xl max-lg:text-xl no-arrows text-[#141414]  ${
                   YearErr || DayErr === "Must be a valid date"
                     ? "border-[#ff5757]"
                     : "focus:border-[#9a8ac1]"
